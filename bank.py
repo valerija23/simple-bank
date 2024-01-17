@@ -18,12 +18,26 @@ while True:
 
     if choice == '1':
         # papildini kodu šeit
+        print("How much do you want to deposit?")
+        deposit = int(input())
+        balance += deposit
+        print("Your balance is = " + str(balance))
         pass
     elif choice == '2':
         # papildini kodu šeit
+        print("How much do you want to withdraw?")
+        withdraw = int(input())
+        balance -= withdraw
+        print("Withdraw = " + str(withdraw))
+        print("Your balance is =" + str(balance))
+        pass
+    
+
+
         pass
     elif choice == '3':
         # papildini kodu šeit
+        print("Your balance is =" + str(balance))
         pass
     elif choice == '4':
         print("Exiting the banking system. Thank you!")
